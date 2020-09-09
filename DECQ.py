@@ -1,7 +1,8 @@
+from collections import OrderedDict
 class DoubleEndedCircularQueue:
     def __init__(self):
         self.DECQ=[]
-        self.limit=10
+        self.limit=int (input("enter limit"))
         self.front=None
         self.rear=None
     def isFull(self):
@@ -10,7 +11,7 @@ class DoubleEndedCircularQueue:
       else:
         return False
     def isEmpty(self):
-          if len(self.DECQ)==0:
+          if self.front == None and self.rear==None:
             return True
           else:
             return False
@@ -61,27 +62,59 @@ class DoubleEndedCircularQueue:
         if self.isEmpty():
           print("queue underflow")
         else:
-           for i in self.DECQ:
-             if i==ele:
-               flag=True
+           for i in range(0,len(self.DECQ)):
+             if self.DECQ[i]==ele:
+               print("element found @",i)
                break
-           if flag:
-             print("element found")
-           else:
-             print("element not found")
+             else:
+              print("element not found")
+              break
     def display(self):
         if self.isEmpty():
-            print("queeu underflow")
+            print("queue underflow")
         else:
             for i in self.DECQ:
              print(i,end=" ")
              print()
+    def reset(self):
+       if self.isEmpty():
+        print("queue underflow")
+       else:
+          self.DECQ=self.DECQ.clear()
+          print("queue has been reset")
+          
+    def remove_dup(self):
+       if self.isEmpty():
+        print("queue underflow")
+       else:
+        self.DECQ= list(OrderedDict.fromkeys(self.DECQ))  
+        print("duplicate elements removal succesfull!")
+    def xchange(self,ele,pos):
+      flag=False
+      if self.isEmpty():
+        print("queue underflow")
+      else:
+        for i in range(0,len(self.DECQ)):
+          if i==pos :
+            self.DECQ[i]=ele
+            flag=True
+            break
+        if flag:
+          print("element exhange succesfull")
+          print(self.DECQ)
+        else:
+          print("element exchange unsuccesfull")
+
+    
+
+    
 
 decq=DoubleEndedCircularQueue()
 while True:
   print("1.enqueue-rear,2.enqueue-front")
   print("3.dequeue-rear 4.dequeue-front")
-  print("5.display,6.find,7.exit")
+  print("5.display,6.find,7 exchange")
+  print("8.remove-duplicates,9.reset-list,10.exit")
   ch=int(input("enter your choice"))
   if ch==1:
      ele=int(input("enter element"))
@@ -99,4 +132,15 @@ while True:
       ele=int(input("enter element"))
       decq.find(ele)
   elif ch==7:
-      break
+      ele=int(input("enter element"))
+      pos=int(input("enter position"))
+      decq.xchange(ele,pos)  
+  elif ch==8:
+      decq.remove_dup()
+  elif ch==9:
+      decq.reset()
+  elif ch==10:
+       break
+  else:
+      print("invalid choice,try again!")
+
