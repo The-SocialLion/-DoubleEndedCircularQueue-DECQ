@@ -1,0 +1,59 @@
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7.exit
+enter your choice6
+enter element12
+queue underflow
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7.exit
+enter your choice1
+enter element12
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7.exit
+enter your choice1
+enter element23
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7.exit
+enter your choice2
+enter element12
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7.exit
+enter your choice2
+enter element45
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7.exit
+enter your choice5
+45 
+12 
+12 
+23 
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7.exit
+enter your choice3
+23
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7.exit
+enter your choice4
+45
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7.exit
+enter your choice5
+12 
+12 
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7.exit
+enter your choice6
+enter element12
+element found
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7.exit
