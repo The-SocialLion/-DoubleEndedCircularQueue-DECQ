@@ -1,59 +1,174 @@
+enter limit4
 1.enqueue-rear,2.enqueue-front
 3.dequeue-rear 4.dequeue-front
-5.display,6.find,7.exit
-enter your choice6
-enter element12
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice9
 queue underflow
 1.enqueue-rear,2.enqueue-front
 3.dequeue-rear 4.dequeue-front
-5.display,6.find,7.exit
-enter your choice1
-enter element12
-1.enqueue-rear,2.enqueue-front
-3.dequeue-rear 4.dequeue-front
-5.display,6.find,7.exit
-enter your choice1
-enter element23
-1.enqueue-rear,2.enqueue-front
-3.dequeue-rear 4.dequeue-front
-5.display,6.find,7.exit
-enter your choice2
-enter element12
-1.enqueue-rear,2.enqueue-front
-3.dequeue-rear 4.dequeue-front
-5.display,6.find,7.exit
-enter your choice2
-enter element45
-1.enqueue-rear,2.enqueue-front
-3.dequeue-rear 4.dequeue-front
-5.display,6.find,7.exit
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
 enter your choice5
-45 
-12 
-12 
-23 
+queue underflow
 1.enqueue-rear,2.enqueue-front
 3.dequeue-rear 4.dequeue-front
-5.display,6.find,7.exit
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice1
+enter element1
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice2
+enter element2
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice1
+enter element1
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice2
+enter element2
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice5
+2 
+2 
+1 
+1 
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
 enter your choice3
-23
+1
 1.enqueue-rear,2.enqueue-front
 3.dequeue-rear 4.dequeue-front
-5.display,6.find,7.exit
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
 enter your choice4
-45
+2
 1.enqueue-rear,2.enqueue-front
 3.dequeue-rear 4.dequeue-front
-5.display,6.find,7.exit
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice1
+enter element1
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice2
+enter element2
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice1
+enter element3
+queue overflow
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
 enter your choice5
-12 
-12 
+2 
+2 
+1 
+1 
 1.enqueue-rear,2.enqueue-front
 3.dequeue-rear 4.dequeue-front
-5.display,6.find,7.exit
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice3
+1
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice4
+2
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice1
+enter element3
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice2
+enter element3
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice5
+3 
+2 
+1 
+3 
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
 enter your choice6
-enter element12
-element found
+enter element3
+element found @ 0
 1.enqueue-rear,2.enqueue-front
 3.dequeue-rear 4.dequeue-front
-5.display,6.find,7.exit
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice8
+duplicate elements removal succesfull!
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice5
+3 
+2 
+1 
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice7
+enter element4
+enter position1
+element exhange succesfull
+[3, 4, 1]
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice5
+3 
+4 
+1 
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice9
+queue has been reset
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice23
+invalid choice try again!
+1.enqueue-rear,2.enqueue-front
+3.dequeue-rear 4.dequeue-front
+5.display,6.find,7 exchange
+8.remove-duplicates,9.reset-list,10.exit
+enter your choice10
