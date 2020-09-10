@@ -3,6 +3,8 @@ class DoubleEndedCircularQueue:
     def __init__(self):
         self.DECQ=[]
         self.limit=int (input("enter limit"))
+        self.a=[]
+
         self.front=None
         self.rear=None
     def isFull(self):
@@ -76,6 +78,18 @@ class DoubleEndedCircularQueue:
             for i in self.DECQ:
              print(i,end=" ")
              print()
+    def arrange(self,c):
+        if self.isEmpty():
+             print("queue underflow")
+        elif c==1:
+            self.DECQ.sort(reverse=True)
+            print(self.DECQ)
+        else:
+            self.DECQ.sort()
+            print(self.DECQ)
+          
+       
+
     def reset(self):
        if self.isEmpty():
         print("queue underflow")
@@ -114,7 +128,8 @@ while True:
   print("1.enqueue-rear,2.enqueue-front")
   print("3.dequeue-rear 4.dequeue-front")
   print("5.display,6.find,7 exchange")
-  print("8.remove-duplicates,9.reset-list,10.exit")
+  print("8.remove-duplicates,9.reset-list,10.arrange")
+  print("11.exit")
   ch=int(input("enter your choice"))
   if ch==1:
      ele=int(input("enter element"))
@@ -140,7 +155,9 @@ while True:
   elif ch==9:
       decq.reset()
   elif ch==10:
-       break
+       m=int(input("enter sequenece"))
+       decq.arrange(m)
+  elif ch==11:
+      break
   else:
       print("invalid choice,try again!")
-
